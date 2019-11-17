@@ -19,7 +19,7 @@
 //= require fullcalendar
 //= require fullcalendar/lang/ja
 
-$(function() { // document ready
+$(document).on('turbolinks:load', function () {
 
   var calendar = $('#calendar').fullCalendar({
     header: {
