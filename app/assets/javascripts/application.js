@@ -25,11 +25,13 @@ $(function() { // document ready
     header: {
       left: 'prev,next today',
       center: 'title',
-      right: 'agendaWeek,agendaDay'
+      right: 'month,agendaWeek,agendaDay'
     },
-    defaultView: 'agendaWeek',
+    defaultView: 'agendaDay',
     defaultTimedEventDuration: '01:00',
     allDaySlot: false,
+    nowIndicator: true,
+    navLinks: true,
     scrollTime: '08:00',
     businessHours: {
       start: '9:00',
